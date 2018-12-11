@@ -1,0 +1,14 @@
+<div class="mainContainer">
+  <div class="sideBar">
+    <div cdkDropList #todoList [cdkDropListData]="componentList" [cdkDropListConnectedTo]="[doneList]">
+      <div class="list-box" *ngFor="let listItem of componentList" cdkDrag>{{listItem.label}}</div>
+    </div>
+  </div>
+  <div class="canvas">
+    <div cdkDropList #doneList="cdkDropList" (cdkDropListDropped)="drop($event)">
+      <div class="container" *ngFor="let model of models" cdkDrag>
+        <app-dynamic [properties]="model"></app-dynamic>
+      </div>
+    </div>
+  </div>
+</div>

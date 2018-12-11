@@ -1,0 +1,13 @@
+.treeClass {
+    list-style-type: none;
+}
+
+.listStyle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.iconStyle {
+    cursor: pointer;
+}

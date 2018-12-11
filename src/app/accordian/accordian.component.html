@@ -1,0 +1,24 @@
+<mat-card class="cardBackground">
+  <mat-card-title>Accordian Block</mat-card-title>
+  <mat-card-content style="margin: 30px 0 5px 0">
+    <mat-accordion>
+      <mat-expansion-panel *ngFor="let data of dataArray">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{data.name}}
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div>
+          <p>{{data.about}}</p>
+
+          <div class="contentContainer">
+            <mat-card *ngFor="let friend of data.friends" class="cardStyle">
+              <h4>{{friend.name}}</h4>
+            </mat-card>
+          </div>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </mat-card-content>
+</mat-card>

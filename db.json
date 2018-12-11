@@ -1,0 +1,201 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "customers": [
+    {
+      "_id": "5c0e62b539d5a78385a8f6d9",
+      "index": 0,
+      "guid": "3100be8a-9ed0-485f-a893-235109e0ad56",
+      "isActive": true,
+      "balance": "$1,416.98",
+      "picture": "http://placehold.it/32x32",
+      "age": 36,
+      "eyeColor": "green",
+      "name": "Sharon Valenzuela",
+      "gender": "female",
+      "company": "VORATAK",
+      "email": "sharonvalenzuela@voratak.com",
+      "phone": "+1 (810) 546-2100",
+      "address": "833 Hemlock Street, Collins, Mississippi, 6789",
+      "about": "Exercitation occaecat reprehenderit culpa pariatur exercitation nostrud et. Reprehenderit esse dolor nisi cupidatat ea laborum ipsum incididunt. Quis qui laboris exercitation anim. Anim laboris nostrud elit esse aute est Lorem. Id proident dolor sunt elit in pariatur ipsum dolore do dolore do.\r\n",
+      "registered": "2014-06-29T01:20:56 -06:-30",
+      "latitude": 35.233604,
+      "longitude": -76.605696,
+      "tags": [
+        "Lorem",
+        "fugiat",
+        "velit",
+        "sit",
+        "proident",
+        "velit",
+        "qui"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Brittany Noble"
+        },
+        {
+          "id": 1,
+          "name": "Sanchez Poole"
+        },
+        {
+          "id": 2,
+          "name": "Hickman Rivers"
+        }
+      ],
+      "greeting": "Hello, Sharon Valenzuela! You have 3 unread messages.",
+      "favoriteFruit": "banana"
+    },
+    {
+      "_id": "5c0e62b5efa87b82d3d7e738",
+      "index": 1,
+      "guid": "2ede5d0e-7ba1-49e9-b35e-ae5195b933ca",
+      "isActive": false,
+      "balance": "$2,674.37",
+      "picture": "http://placehold.it/32x32",
+      "age": 29,
+      "eyeColor": "brown",
+      "name": "Benton Peterson",
+      "gender": "male",
+      "company": "ZILODYNE",
+      "email": "bentonpeterson@zilodyne.com",
+      "phone": "+1 (824) 567-2100",
+      "address": "465 Gates Avenue, Cassel, Idaho, 6708",
+      "about": "Reprehenderit tempor exercitation quis commodo do officia. Minim et pariatur incididunt incididunt nisi anim labore. Sit qui commodo minim velit. Culpa id cillum aliquip sunt non tempor nulla officia sit. Non consectetur mollit incididunt laborum. Fugiat aliquip irure dolor sit minim mollit non in deserunt pariatur cillum. Esse culpa sit dolore ex commodo sunt ex consequat est sit irure Lorem sint velit.\r\n",
+      "registered": "2017-10-06T11:51:54 -06:-30",
+      "latitude": -66.477184,
+      "longitude": 89.225394,
+      "tags": [
+        "reprehenderit",
+        "sunt",
+        "deserunt",
+        "anim",
+        "elit",
+        "Lorem",
+        "ex"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Patti Shaw"
+        },
+        {
+          "id": 1,
+          "name": "Alford Downs"
+        },
+        {
+          "id": 2,
+          "name": "Mcmahon Becker"
+        }
+      ],
+      "greeting": "Hello, Benton Peterson! You have 3 unread messages.",
+      "favoriteFruit": "banana"
+    },
+    {
+      "_id": "5c0e62b5e2c8cd8ade095290",
+      "index": 2,
+      "guid": "59b87971-3317-4bc0-9b6f-e3d7fe134ecf",
+      "isActive": true,
+      "balance": "$2,854.39",
+      "picture": "http://placehold.it/32x32",
+      "age": 37,
+      "eyeColor": "green",
+      "name": "Kayla Griffin",
+      "gender": "female",
+      "company": "MAGNEMO",
+      "email": "kaylagriffin@magnemo.com",
+      "phone": "+1 (914) 573-3487",
+      "address": "494 Mill Lane, Hasty, Arizona, 522",
+      "about": "Minim ea labore laborum aute laborum amet nisi consectetur. Amet exercitation ad officia exercitation veniam commodo incididunt qui. Sit velit adipisicing adipisicing mollit Lorem occaecat dolore reprehenderit ut esse. Fugiat incididunt pariatur aute tempor consequat. Adipisicing dolore mollit consequat veniam proident. Velit adipisicing commodo do deserunt veniam minim quis nisi mollit dolore.\r\n",
+      "registered": "2016-08-22T11:21:12 -06:-30",
+      "latitude": 15.196051,
+      "longitude": -92.504356,
+      "tags": [
+        "laboris",
+        "duis",
+        "irure",
+        "aliquip",
+        "proident",
+        "exercitation",
+        "nisi"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Marquez Lopez"
+        },
+        {
+          "id": 1,
+          "name": "Araceli Ruiz"
+        },
+        {
+          "id": 2,
+          "name": "Latisha Garcia"
+        }
+      ],
+      "greeting": "Hello, Kayla Griffin! You have 9 unread messages.",
+      "favoriteFruit": "banana"
+    },
+    {
+      "_id": "5c0e62b5a9dd080e3439ea0a",
+      "index": 3,
+      "guid": "1fc7799d-4661-4a1d-a5db-f773716eee17",
+      "isActive": true,
+      "balance": "$2,800.50",
+      "picture": "http://placehold.it/32x32",
+      "age": 36,
+      "eyeColor": "blue",
+      "name": "Tabatha Juarez",
+      "gender": "female",
+      "company": "GEEKWAGON",
+      "email": "tabathajuarez@geekwagon.com",
+      "phone": "+1 (849) 514-2188",
+      "address": "997 Amherst Street, Caspar, Ohio, 7827",
+      "about": "Est reprehenderit dolore sunt labore voluptate irure dolor. Aute Lorem dolore voluptate veniam eiusmod irure ut esse qui irure elit nulla. Reprehenderit cupidatat cupidatat ex cillum nostrud consectetur. Reprehenderit commodo ullamco laborum elit cupidatat do irure dolor irure exercitation reprehenderit officia dolor sunt. Ea mollit dolore exercitation ex.\r\n",
+      "registered": "2015-10-19T07:38:54 -06:-30",
+      "latitude": -78.135462,
+      "longitude": -10.661295,
+      "tags": [
+        "laboris",
+        "qui",
+        "mollit",
+        "quis",
+        "veniam",
+        "anim",
+        "dolor"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Bernadine Waller"
+        },
+        {
+          "id": 1,
+          "name": "Oneal Martinez"
+        },
+        {
+          "id": 2,
+          "name": "Norton Gentry"
+        }
+      ],
+      "greeting": "Hello, Tabatha Juarez! You have 7 unread messages.",
+      "favoriteFruit": "banana"
+    }
+  ]
+}

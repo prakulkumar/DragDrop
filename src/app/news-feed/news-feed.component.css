@@ -1,0 +1,21 @@
+.mainCard {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.contentStyle {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.imageStyle {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+}

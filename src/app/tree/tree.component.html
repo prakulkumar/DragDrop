@@ -1,0 +1,11 @@
+<ul *ngFor="let data of treeData" class="treeClass">
+  <li>
+    <div class="listStyle">
+      <mat-icon class="iconStyle" *ngIf="data.children.length > 0 && !data.showChildren" (click)="data.showChildren = !data.showChildren">add_box</mat-icon>
+      <mat-icon class="iconStyle" *ngIf="data.children.length > 0 && data.showChildren" (click)="data.showChildren = !data.showChildren">remove_circle</mat-icon>
+      <mat-icon *ngIf="data.children.length == 0">adjust</mat-icon>
+      <span style="margin: 6px; text-transform: capitalize">{{data.name}}</span>
+    </div>
+  </li>
+  <app-tree [treeData]="data.children" *ngIf="data.children.length > 0 && data.showChildren"></app-tree>
+</ul>

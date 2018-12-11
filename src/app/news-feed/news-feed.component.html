@@ -1,0 +1,27 @@
+<mat-card class="cardBackground">
+  <mat-card-title>News Feeds</mat-card-title>
+  <mat-card-content style="margin: 30px 0 5px 0;">
+    <div *ngIf="loading" class="loading">
+      <mat-spinner diameter="50"></mat-spinner>
+    </div>
+    <div *ngIf="!loading" style="overflow: auto; max-height: 260px;">
+      <mat-card *ngFor="let news of articleArray" class="mainCard" (click)="openTab(news)">
+        <div>
+          <h2>{{news.title}}</h2>
+        </div>
+        <div class="contentStyle">
+          <div style="width: 200px; height: 150px;">
+            <img src="{{news.urlToImage}}" alt="newsImage" class="imageStyle">
+          </div>
+
+          <div style="font-size: 16px; padding: 10px 10px 0 20px;">
+            <div><b>Source : </b><span style="color: blue">{{news.source.name}}</span></div>
+            <br>
+            <div><b>Publiched At : </b><span style="color: blue">{{news.publishedAt}}</span></div>
+            <p>{{news.content}}</p>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+  </mat-card-content>
+</mat-card>
